@@ -9,3 +9,11 @@ description = Input('chose math operation (+, -, *, /)')
 float first_number = input("First number: ")
 
 float number_to_add = input("Number to add : ")
+
+if description == "+":
+    c = a + b
+    print("Результат дії дорівнює " + str(c))
+
+elif description = "-":
+    c = a - b
+    print("Результат дії дорівнює " + str(c))
