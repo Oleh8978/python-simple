@@ -17,3 +17,14 @@ if math_operation == "+":
 elif math_operation = "-":
     c = a - b
     print("Результат дії дорівнює " + str(c))
+
+elif math_operation = "*":
+    c = a * b
+    print("Результат дії дорівнює " + str(c))
+
+elif math_operation = "/":
+    c = a / b
+    print("Результат дії дорівнює " + str(c))
+
+else:
+    print("Ви обрали невірну функцію")
